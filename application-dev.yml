@@ -30,3 +30,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8091/eureka/
+hello: this is my test
