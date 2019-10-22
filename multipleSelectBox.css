@@ -1,0 +1,18 @@
+*{margin:0; padding:0;}
+        ul,li{list-style:none;}
+        :focus{outline: none;}
+        input[type=text]{border:1px solid #ccc;}
+        input[type=text]:hover,input[type=text]:focus{border-color: #57bc80; box-shadow: none;}
+        
+        .my-select-box{position: relative;width: 50%;}
+        .my-select-box .my-select-input{ height: 24px; line-height: 24px; padding:0 5px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAG2YAABzjgAA4DIAAIM2AAB5CAAAxgwAADT6AAAgbL5TJ5gAAABGSURBVHjaYvz//z8DOYCJgUzA0tnZidPK8vJyRpw24pLEpwnuVHRFhDQxMDAwMPz//x+OOzo6/iPz8WFGuocqAAAA//8DAD/sORHYg7kaAAAAAElFTkSuQmCC) right center no-repeat;
+            background-color: white;
+            padding-right:20px !important;
+            width:100%;
+            box-sizing: border-box;
+        }
+        .my-select-box .my-select-list{position:absolute; left:0; z-index: 101; border:1px solid #ccc; border-top:none; max-height: 120px; overflow-y: auto; display: none; background: #fff; width:100%; box-sizing: border-box;}
+        .my-select-box .my-select-list li{height: 22px; line-height: 22px; padding:0 3px; cursor:pointer; margin-bottom: 1px}
+        .my-select-box .my-select-list li.choosed{background: #3E8DDD; color:#fff;}
+        .my-select-box .my-select-list li:hover{background: #3E8DDD; color:#fff;}
